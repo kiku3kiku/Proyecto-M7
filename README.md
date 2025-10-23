@@ -70,7 +70,7 @@ Utiliza este endpoint para enviar una reseña y obtener su clasificación.
 
 | Método | URL |
 | :---: | :---: |
-| **POST** | `http://127.0.0.1:5000\predict` |
+| **POST** | `https://nestor-homelier-claire.ngrok-free.dev/predict` |
 
 **Cuerpo de la Petición (JSON requerido):**
 
@@ -90,3 +90,4 @@ Utiliza este endpoint para enviar una reseña y obtener su clasificación.
     "sentimiento": "POSITIVO 😊"
 }
 ````
+
